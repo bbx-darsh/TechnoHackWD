@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="heading">Responsive Landing Page</div>
+      <span class="sideMenuButton" onclick="openNavbar()"> ☰ </span>
+
+      <div class="navbar">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#MyProjects">Courses</a></li>
+          <li><a href="#contact">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Side navigation bar for responsiveness -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+      <a href="#" class="closeButton" onclick="closeNavbar()"> </a>
+      <a href="#">Home</a>
+      <a href="#">Courses</a>
+      <a href="#">Sign Up</a>
+    </div>
+
+    <!-- The Actual content -->
+    <div class="line" id="Home">
+      <div class="side1">
+        <h1>LandingPageByAdarsh</h1>
+        <button>
+          <a href="#"> Learn More ! </a>
+        </button>
+      </div>
+      <div class="side2">
+        <!-- Side Image  -->
+        <img
+          src="https://images.pexels.com/photos/34225/spider-web-with-water-beads-network-dewdrop.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          width="500"
+        />
+      </div>
+    </div>
+
+      <!-- Courses Content  -->
+
+    <section class="about" id="MyProjects">
+      <div class="content">
+        <div class="title">
+          <span>Courses</span>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> DSA </a>
+            </div>
+            <p>
+              If you have any specific questions or need assistance with
+              something related to data structures and algorithms (DSA), please
+              feel free to ask! I'm here to help.
+            </p>
+          </div>
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> HTML </a>
+            </div>
+            <p>
+              HTML stands for "HyperText Markup Language." It is the standard
+              markup language used for creating and structuring the content of
+              web pages and web applications.
+            </p>
+          </div>
+
+          <div class="box">
+            <div class="topic">
+              <a href="" target="_blank"> C </a>
+            </div>
+            <p>
+              C is a general-purpose, procedural programming language developed
+              in the early 1970s by Dennis Ritchie at Bell Labs. It is one of
+              the most influential programming languages and has had a
+              significant impact on the field of computer science.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- The Contact Section  -->
+
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Sign Up</span></div>
+        <div class="contactMenu">
+          <div class="input1">
+            <div class="label1">Your Name</div>
+            <div class="input2">
+              <input type="text" placeholder="Enter your Name" />
+            </div>
+            <div class="label1">
+              <label>Your Email</label>
+            </div>
+            <div class="input2">
+              <input type="text" placeholder="Enter your Email" />
+            </div>
+            <div class="label1">
+              <label>Your Password</label>
+            </div>
+            <div class="input2">
+              <input type="text" placeholder="Enter your Password" />
+            </div>
+            <div class="button">
+              <button>Sign Up</button>
+            </div>
+          </div>
+          <div class="input3">
+            <div class="rightside1">
+              <div class="title1">
+                <span> Contact Us ! </span>
+              </div>
+              <div class="content1">
+                654A/433, XYZ Lane, Opposite of PWD Colony, Nagpur, Maharashtra.
+              </div>
+              <div class="title1">
+                <span>More Information</span>
+              </div>
+              <div class="content1">
+                A landing page is a web page designed specifically to convert
+                visitors into leads or customers by encouraging them to take a
+                specific action, such as signing up for a newsletter,
+                downloading a resource, or making a purchase. Landing pages are
+                commonly used in digital marketing campaigns, as they provide a
+                focused and targeted experience to the visitors, increasing the
+                likelihood of achieving the desired conversion goal.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
